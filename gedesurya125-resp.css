@@ -1,0 +1,137 @@
+@media (min-width: 700px){
+  header.nav{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  nav{
+    width: auto;
+    height: auto;
+  }
+  .nav > h1{
+    margin-left: 20px;
+  }
+  nav > ul {
+    padding-top: 0;
+    display: flex;
+    align-items: stretch;
+  }
+  nav > ul > li > a{
+    padding: 2em 1em;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-top: -5em;
+
+  }
+
+  .about-img{
+    width: 400px;
+    height: 520px;
+  }
+
+  .projects{
+    min-height: 100vh;
+    padding-top: 5em;
+  }
+  ul.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  ul.project-list > li {
+    width: 420px;
+  }
+
+  .acheivements {
+    padding-top: 5em;
+  }
+  .acheivements-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .acheivements > ul > li {
+    width: 400px;
+    display: block;
+    margin: 1em;
+  }
+
+  /* .acheivements > ul > li > img{
+    width: 100px;
+    display: block;
+  } */
+
+  .videos{
+    padding-top: 5em;
+  }
+  .videos > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .videos > ul > li {
+    width: 600px;
+  }
+
+
+
+  .contact{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contact > header{
+    transform: rotate(-3deg);
+    width: 500px;
+    text-align: right;
+    position: relative;
+  }
+  .contact > header > span.exclamation-mark{
+    position: absolute;
+    display: inline-block;
+    color: red;
+    transform: rotate(23deg);
+    font-size: 3em;
+  }
+  .contact > form {
+    width: 600px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: cener;
+    align-items: center;
+  }
+
+  footer > .footer-img {
+    margin-right: 2em;
+  }
+  footer > .footer-text {
+    width: 70%;
+    
+  }
+  footer > .footer-text > p{
+    text-align: left;
+  }
+
+}
+
+
