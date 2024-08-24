@@ -1,2 +1,3 @@
-# This is my personal portofolio
-  this protofolio is online at [here](https://gedesurya125.github.io/portofolio2/)
+## Sources:
+
+1. nextjs-eslint-prettier-tailwinds configuration: https://dev.to/jsdevspace/setup-nextjs-14-project-with-eslint-prettier-tailwind-css-226j
