@@ -3,7 +3,7 @@ import { ResponsiveGrid } from 'components/theme';
 export default async function Home() {
   return (
     <main>
-      <h1 className="ml-10 mt-10 font-heading text-lg text-white">
+      <h1 className="ml-10 mt-10 font-heading text-lg italic text-white">
         Welcome to the Surya`s Next JS Tailwinds starter
       </h1>
 
