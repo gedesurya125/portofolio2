@@ -50,6 +50,13 @@ module.exports = {
         24: '24',
         25: '25',
       },
+      colors: {
+        background: '#fefae0',
+        primary: '#283618',
+        primaryVariant: '#606c38',
+        secondary: '#bc6c25',
+        secondaryVariant: '#dda15e',
+      },
     },
   },
   // https://tailwindcss.com/docs/plugins
