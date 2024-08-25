@@ -18,8 +18,7 @@
 /* Phone portrait */
 html {
   font-size: calc(
-    var(--responsive-grow-phone) *
-      (100vw - var(--target-phone-portrait-screen-size)) +
+    var(--responsive-grow-phone) * (100vw - var(--target-phone-portrait-screen-size)) +
       var(--normalize-rem-value)
   ) !important;
 }
@@ -28,8 +27,7 @@ html {
 @media screen and (min-width: 750px) {
   html {
     font-size: calc(
-      var(--responsive-grow-tablet-portrait) *
-        (100vw - var(--target-tablet-portrait-screen-size)) +
+      var(--responsive-grow-tablet-portrait) * (100vw - var(--target-tablet-portrait-screen-size)) +
         var(--normalize-rem-value)
     ) !important;
   }
@@ -39,19 +37,18 @@ html {
 @media screen and (min-width: 1000px) {
   html {
     font-size: calc(
-      var(--responsive-grow-tablet-landscape) *
-        (100vw - var(--target-tablet-landscape-screen-size)) +
+      var(--responsive-grow-tablet-landscape) * (100vw - var(--target-tablet-landscape-screen-size)) +
         var(--normalize-rem-value)
     ) !important;
   }
 }
 
 /* desktop */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   html {
     font-size: calc(
-      var(--responsive-grow-desktop) *
-        (100vw - var(--target-desktop-screen-size)) + var(--normalize-rem-value)
+      var(--responsive-grow-desktop) * (100vw - var(--target-desktop-screen-size)) +
+        var(--normalize-rem-value)
     ) !important;
   }
 }
