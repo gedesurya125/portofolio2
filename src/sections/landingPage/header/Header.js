@@ -9,6 +9,6 @@ export const Header = () => {
   );
 };
 
-const Headline = (second) => {
-  return <h1>Surya A</h1>;
+const Headline = () => {
+  return <h1 className="font-heading text-lg font-bold italic">Surya A</h1>;
 };

@@ -11,7 +11,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playFair.variable} bg-background text-primary`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${playFair.variable} bg-background text-primary antialiased`}
+    >
       <body>{children}</body>
     </html>
   );
