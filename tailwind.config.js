@@ -18,11 +18,6 @@ module.exports = {
       body: ['var(--font-inter)'],
       heading: ['var(--font-playFair)'],
     },
-    fontSize: {
-      sm: ['1rem', '1.5em'],
-      md: ['2rem', '1.35em'],
-      lg: ['3rem', '1.15em'],
-    },
     extend: {
       spacing: {
         'card-sm': '1rem',
