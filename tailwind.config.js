@@ -29,7 +29,7 @@ module.exports = {
         'container-desktop': '129.1rem',
       },
       gridTemplateColumns: {
-        24: 'repeat(24, 1fr)',
+        24: 'repeat(24, minmax(0, 1fr))',
       },
       gridColumnEnd: {
         13: '13',
