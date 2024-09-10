@@ -15,8 +15,8 @@ module.exports = {
       lg: '1300px', //? this should be the same with the breakpoints setup in the global
     },
     fontFamily: {
-      body: ['var(--font-inter)'],
-      heading: ['var(--font-playFair)'],
+      body: ['var(--font-convergence)'],
+      heading: ['var(--font-aclonica)'],
     },
     extend: {
       spacing: {
@@ -49,9 +49,9 @@ module.exports = {
       colors: {
         background: '#fefae0',
         primary: '#283618',
-        primaryVariant: '#606c38',
+        primary500: '#606c38',
         secondary: '#bc6c25',
-        secondaryVariant: '#dda15e',
+        secondary500: '#dda15e',
       },
     },
   },

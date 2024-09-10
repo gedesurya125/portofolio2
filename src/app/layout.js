@@ -1,8 +1,13 @@
-import { Inter, Playfair, Vazirmatn } from 'next/font/google';
+import { Inter, Aclonica, Convergence } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playFair = Playfair({ subsets: ['latin'], variable: '--font-playFair' });
+const aclonica = Aclonica({ subsets: ['latin'], variable: '--font-aclonica', weight: '400' });
+const convergence = Convergence({
+  subsets: ['latin'],
+  variable: '--font-convergence',
+  weight: '400',
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playFair.variable} bg-background text-primary antialiased`}
+      className={`${convergence.variable} ${aclonica.variable} bg-background text-primary antialiased`}
     >
       <body>{children}</body>
     </html>
