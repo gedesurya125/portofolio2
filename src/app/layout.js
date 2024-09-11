@@ -1,7 +1,6 @@
 import { Inter, Aclonica, Convergence } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const aclonica = Aclonica({ subsets: ['latin'], variable: '--font-aclonica', weight: '400' });
 const convergence = Convergence({
   subsets: ['latin'],
