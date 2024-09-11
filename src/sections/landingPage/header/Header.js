@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { Logo, SuryaLogo } from 'components/svgs';
+import { Logo } from 'components/svgs';
 import { ResponsiveGrid } from 'components/theme';
 import React from 'react';
 
@@ -8,6 +8,7 @@ export const Header = () => {
     <div className={clsx('lg:flex lg:h-screen lg:items-center')}>
       <ResponsiveGrid as="header" className={clsx('')}>
         <HeaderLogo />
+        <Decoration />
         <Headline />
       </ResponsiveGrid>
     </div>
@@ -29,6 +30,21 @@ const Headline = () => {
         I’m a front-end developer
         <br /> and website designer
       </p>
+    </div>
+  );
+};
+
+const Decoration = () => {
+  return (
+    <div
+      className={clsx(
+        '__decoration',
+        'relative flex h-96 items-center',
+        'lg:col-start-9 lg:col-end-12 lg:self-center lg:justify-self-center',
+      )}
+    >
+      <div className={clsx('__primary-bar', 'relative bottom-[25%] h-full w-10 bg-primary')}></div>
+      <div className={clsx('__secondary-bar', 'relative top-[25%] h-full w-10 bg-secondary')}></div>
     </div>
   );
 };
