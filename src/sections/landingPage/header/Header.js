@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { Logo } from 'components/svgs';
 import { ResponsiveGrid } from 'components/theme';
+import { cn } from 'components/theme/utils/cn';
 import React from 'react';
 
 export const Header = () => {
@@ -16,7 +17,11 @@ export const Header = () => {
 };
 
 const HeaderLogo = () => {
-  return <Logo className={clsx('md:w-10', 'col-end-8 lg:col-start-2 lg:w-full')} />;
+  return (
+    <Logo
+      className={cn('col-start-3 col-end-10 w-full', 'lg:col-start-2 lg:col-end-8 lg:w-full')}
+    />
+  );
 };
 
 const Headline = () => {
