@@ -6,7 +6,7 @@ export const ResponsiveGrid = ({ children, as: Component = 'div', className = ''
     <Component
       {...props}
       className={clsx(
-        `mx-auto grid w-container-phone grid-cols-12 gap-2`,
+        `mx-auto grid w-container-phone grid-cols-12 gap-x-2`,
         `sm:w-container-tablet-portrait sm:grid-cols-24`,
         `md:w-container-tablet-landscape md:grid-cols-24`,
         `lg:w-container-desktop lg:grid-cols-24`,
